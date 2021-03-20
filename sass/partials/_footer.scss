@@ -1,0 +1,101 @@
+footer {
+  display: block;
+  width: 100%;
+  margin: 0 0 0;
+  padding: 30px 0;
+  background-color: #222222;
+
+  @media (max-width: 414px) {
+    font-size: 12px;
+      padding: 10px 0;
+  }
+
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+    img {
+      width: 100px;
+      height: 45px;
+
+      @media (max-width: 414px) {
+        width: 60px;
+        height: 25px;
+      }
+    }
+
+    .ulInFooter1 {
+      position: relative;
+
+      :first-child {
+        @include styleP;
+        color: #626262;
+
+        @media (max-width: 567px) {
+          font-size: 15px;
+        }
+
+        @media (max-width: 414px) {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+
+      li {
+        @include styleP;
+        line-height: 25px;
+        color: #d3d3d3;
+        font-size: 15px;
+
+        @media (max-width: 567px) {
+          font-size: 12px;
+        }
+
+        @media (max-width: 414px) {
+          font-size: 9px;
+    line-height: 16px;
+        }
+      }
+    }
+
+    .ulInFooter2 {
+      position: relative;
+
+      @media (max-width: 414px) {
+        display: none;
+      }
+
+      :first-child {
+        @include styleP;
+        color: #626262;
+
+        @media (max-width: 567px) {
+          font-size: 15px;
+        }
+      }
+
+      li {
+        @include styleP;
+        line-height: 25px;
+        color: #d3d3d3;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 567px) {
+          font-size: 12px;
+        }
+
+        img {
+          width: 13px;
+          height: 18px;
+          margin: 0 10px 0 0;
+        }
+      }
+    }
+  }
+}

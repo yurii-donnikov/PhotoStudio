@@ -1,0 +1,117 @@
+.reviews {
+  display: block;
+  width: 100%;
+  margin: 0 0 0;
+  padding: 30px 0 30px 0;
+  background-color: #222222;
+
+  @media (max-width: 414px) {
+    padding: 15px 0 15px 0;
+  }
+
+  h2 {
+    @include styleH3;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+
+    @media (max-width: 414px) {
+      font-size: 18px;
+    }
+
+  }
+
+  p {
+    @include styleP;
+    margin: 15px 0 0 0;
+    text-align: center;
+    color: #fff;
+
+    @media (max-width: 414px) {
+      font-size: 13px;
+      margin: 10px 0 0 0;
+    }
+  }
+
+  .reviewsPhoto {
+    display: flex;
+    justify-content: space-between;
+    //    align-items: center;
+
+    .reviewsPhotoContent {
+      margin: 15px 10px 0 10px;
+      width: 33%;
+
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin: 10px 0 0 0;
+
+        @media (max-width: 540px) {
+          flex-direction: column;
+        }
+
+        h3 {
+          @include styleP;
+          color: #d3d3d3;
+
+          @media (max-width: 896px) {
+            font-size: 13px;
+          }
+
+          @media (max-width: 414px) {
+            font-size: 9px;
+          }
+
+        }
+
+        .stars {
+          margin: 0;
+
+          @media (max-width: 540px) {
+            flex-direction: row;
+          }
+
+          img {
+            margin: 0 3px 0 3px;
+            width: 13px;
+            height: 13px;
+
+            @media (max-width: 768px) {
+              margin: 0 2px 0 2px;
+              width: 10px;
+              height: 10px;
+            }
+
+            @media (max-width: 414px) {
+              width: 6px;
+              height: 6px;
+            }
+          }
+        }
+
+
+      }
+
+      p {
+        margin: 10px 0 0 0;
+        color: #d3d3d3;
+        font-size: 12px;
+
+        @media (max-width: 896px) {
+          font-size: 10px;
+        }
+
+        @media (max-width: 540px) {
+          font-size: 9px;
+        }
+                @media (max-width: 414px) {
+          font-size: 7px;
+        }
+        
+      }
+    }
+  }
+}

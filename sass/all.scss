@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+@import "./fonts.scss";
+@import "./global/reset.scss";
+@import "./global/var.scss";
+@import "./global/styles.scss";
+@import "./partials/header.scss";
+@import "./partials/main.scss";
+@import "./partials/footer.scss";
+
+@import "./partials/underHeader.scss";
+@import "./partials/sessions.scss";
+@import "./partials/inMap.scss";
+@import "./partials/photoSlider.scss";
+@import "./partials/txtUnderSlider.scss";
+@import "./partials/reviews.scss";
+@import "./partials/backPhoto.scss";
+@import "./partials/blog.scss";
+
+//@import "../node_modules/slick-carousel/slick/slick-theme";
+@import "../node_modules/slick-carousel/slick/slick";
+//@import "~slick-carousel/slick/slick";
+//@import "../node_modules/slick-carousel/slick/slick-theme";

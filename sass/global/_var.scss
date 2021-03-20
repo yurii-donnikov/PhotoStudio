@@ -1,0 +1,48 @@
+$font-color: #6a6a6b;
+$color2: #272727;
+
+$placeholder: $color2;
+
+$base-font-weight: 300;
+$brand-font-1: '',
+sans-serif;
+
+
+
+//$P: (
+//
+//  color: aliceblue,
+//  font-weight: 400,
+//  word-spacing: 5px,
+//)
+
+@mixin styleP {
+  font-size: 17px;
+  font-weight: 400;
+  word-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@mixin styleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #ff3c2d;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+
+  &:hover {
+    background-color: #e53325;
+  }
+}
+
+@mixin styleH3 {
+  font-size: 28px;
+  font-weight: 500;
+  word-spacing: 5px;
+  font-family: 'Poppins', sans-serif;
+}
