@@ -53,6 +53,11 @@
           flex-direction: column;
         }
 
+        @media (max-width: 320px) {
+          margin: 0;
+        }
+
+
         h3 {
           @include styleP;
           color: #d3d3d3;
@@ -63,6 +68,10 @@
 
           @media (max-width: 414px) {
             font-size: 9px;
+          }
+
+          @media (max-width: 320px) {
+            font-size: 8px;
           }
 
         }
@@ -107,10 +116,16 @@
         @media (max-width: 540px) {
           font-size: 9px;
         }
-                @media (max-width: 414px) {
+
+        @media (max-width: 414px) {
           font-size: 7px;
         }
-        
+
+        @media (max-width: 320px) {
+          margin: 5px 0 0 0;
+        }
+
+
       }
     }
   }

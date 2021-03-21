@@ -116,7 +116,9 @@ $(document).ready(function () {
 });
 
 $('.Individuals').click(function () {
-  $('.headerMobileMenu').toggleClass('active');
+  if ($(window).width() < 769) {
+    $('.headerMobileMenu').toggleClass('active');
+  }
   $('html, body').animate({
     scrollTop: $(".sessions").offset().top
   }, 600);
@@ -132,7 +134,9 @@ $('.Individuals').click(function () {
 });
 
 $('.Companies').click(function () {
-  $('.headerMobileMenu').toggleClass('active');
+  if ($(window).width() < 769) {
+    $('.headerMobileMenu').toggleClass('active');
+  }
   $('html, body').animate({
     scrollTop: $(".sessions").offset().top
   }, 600);
@@ -148,7 +152,9 @@ $('.Companies').click(function () {
 });
 
 $('.TheStudio').click(function () {
-  $('.headerMobileMenu').toggleClass('active');
+  if ($(window).width() < 769) {
+    $('.headerMobileMenu').toggleClass('active');
+  }
   $('html, body').animate({
     scrollTop: $(".photoSlider").offset().top
   }, 600);
@@ -165,7 +171,9 @@ $('.TheStudio').click(function () {
 
 $('.AboutUs').click(function () {
 
-  $('.headerMobileMenu').toggleClass('active');
+  if ($(window).width() < 769) {
+    $('.headerMobileMenu').toggleClass('active');
+  }
   $('html, body').animate({
     scrollTop: $(".txtUnderSlider").offset().top
   }, 600);
@@ -197,7 +205,9 @@ $('.AboutUs').click(function () {
 //});
 
 $('.Blog').click(function () {
-  $('.headerMobileMenu').toggleClass('active');
+  if ($(window).width() < 769) {
+    $('.headerMobileMenu').toggleClass('active');
+  }
   $('html, body').animate({
     scrollTop: $(".blog").offset().top
   }, 600);

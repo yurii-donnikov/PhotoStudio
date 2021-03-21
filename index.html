@@ -19,11 +19,11 @@
             <h1>studio</h1>
           </a>
           <ul class="menu">
-            <li>Individuals</li>
-            <li>Companies</li>
-            <li>The Studio</li>
-            <li>About Us</li>
-            <li>Blog</li>
+            <li class="Individuals">Individuals</li>
+            <li class="Companies">Companies</li>
+            <li class="TheStudio">The Studio</li>
+            <li class="AboutUs">About Us</li>
+            <li class="Blog">Blog</li>
           </ul>
           <ul class="social">
             <li><a class="icon-facebook" href=""></a></li>
@@ -71,7 +71,7 @@
             <p>Studio Sessions</p>
             <p>Outdoor Sessions</p>
             <p>In-Office Sessions</p>
-            <div class="registration">
+            <div class="registrationIndivid">
               <p class="txtReg">registration</p>
             </div>
 
@@ -85,7 +85,7 @@
             <h2>Companies Sessions</h2>
             <p>Group On-Sites</p>
             <p>Corporate Accounts</p>
-            <div class="registration" target="_blank">
+            <div class="registrationComp">
               <p class="txtReg">registration</p>
             </div>
           </div>
@@ -99,13 +99,11 @@
         <section class="photoSlider">
           <h2>Our professional services</h2>
           <div class="allP">
-            <p>All</p>
-            <p>Individual photo</p>
-            <p>Group photo</p>
+            <p id="allClick">All</p>
+            <p id="individClick">Individual photo</p>
+            <p id="groupClick">Group photo</p>
           </div>
           <div class="slider-for">
-
-
             <div><img src="./images/individual1.png" alt=""></div>
             <div><img src="./images/individual2.png" alt=""></div>
             <div><img src="./images/individual3.png" alt=""></div>
@@ -328,7 +326,18 @@
       </div>
 
     </footer>
-
+    <div class="regContent">
+      <div id="window">
+        <fieldset>
+          <input type="text" placeholder="name" class="myName">
+          <input type="text" value="+44" class="myTell">
+          <input type="button" value="send" class="button">
+          <p class="txtAfterInp"></p>
+        </fieldset>
+        <span class="close">&#10006;</span>
+      </div>
+      <!--      <span class="close">&#10006;</span>-->
+    </div>
   </div>
 
 

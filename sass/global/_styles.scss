@@ -1,27 +1,123 @@
 /* wrapper */
 #wrapper {
-	display:block;
-	position:relative;
-	width:100%;
-	height:100%;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  .regContent {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    overflow: auto;
+    display: none;
+
+    #window {
+      position: fixed;
+      top: 50px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      width: 250px;
+      height: 250px;
+      border: 1px solid black;
+      box-shadow: 0px 0px 30px black;
+      z-index: 2;
+      background-color: #fff;
+
+      @media (max-width: 345px) {
+        width: 210px;
+        height: 220px;
+      }
+
+      fieldset {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        .myName {
+          @include styleP;
+          display: block;
+          border: 1px solid #000;
+          color: #000;
+          width: 80%;
+          height: 25px;
+          padding: 0 0 0 10px;
+        }
+
+        .myTell {
+          @include styleP;
+          display: block;
+          border: 1px solid #000;
+          color: #000;
+          width: 80%;
+          height: 25px;
+          padding: 0 0 0 10px;
+        }
+
+        .button {
+          display: block;
+          height: 30px;
+          width: 60%;
+          margin: 0 auto;
+          @include styleButton;
+          border: none;
+        }
+
+      }
+
+
+    }
+
+    .close {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: -35px;
+      color: black;
+      opacity: 1;
+      z-index: 5;
+      font-size: 30px;
+      cursor: pointer;
+
+      //      @media (max-width: 575px) {
+      //        top: 2%;
+      //        right: 50%;
+      //        transform: translate(50%, 0)
+      //      }
+    }
+  }
 }
+
 .layout {
-	margin:0 auto;
-	position:relative;
-	max-width: 1040px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1040px;
   padding: 0 20px 0 20px;
   box-sizing: border-box;
 
 }
-#content{
-	position: relative;
+
+#content {
+  position: relative;
 }
+
 #sidebar {
-	position: relative;
+  position: relative;
 }
-aside{
-	position: relative;
+
+aside {
+  position: relative;
 }
+
 //.active {
 //  display: block;
 //}
