@@ -71,6 +71,9 @@
           @include styleButton;
           border: none;
         }
+        .txtAfterInp{
+          @include styleP;
+        }
 
       }
 
