@@ -1,10 +1,10 @@
-document.body.querySelectorAll('.slick-arrow')[0].innerText = ''
-document.body.querySelectorAll('.slick-arrow')[1].innerText = ''
-
-document.body.querySelectorAll('.slick-arrow')[2].innerText = ''
-document.body.querySelectorAll('.slick-arrow')[3].innerText = ''
-document.body.querySelectorAll('.slick-arrow')[4].innerText = ''
-document.body.querySelectorAll('.slick-arrow')[5].innerText = ''
+//document.body.querySelectorAll('.slick-arrow')[0].innerText = ''
+//document.body.querySelectorAll('.slick-arrow')[1].innerText = ''
+//
+//document.body.querySelectorAll('.slick-arrow')[2].innerText = ''
+//document.body.querySelectorAll('.slick-arrow')[3].innerText = ''
+//document.body.querySelectorAll('.slick-arrow')[4].innerText = ''
+//document.body.querySelectorAll('.slick-arrow')[5].innerText = ''
 
 
 //- модальное окно под форму регистрации
@@ -80,9 +80,9 @@ const[sliderFor, sliderIndividual, sliderGroup] = ['slider-for', 'sliderIndividu
 window.onload = function (event) {
   sliderIndividual[0].style.display = 'none';
   sliderGroup[0].style.display = 'none';
-}
-
-allClick.onclick = function (event) {
+  
+  //--------
+  allClick.onclick = function (event) {
   sliderFor[0].style.display = 'flex';
   sliderIndividual[0].style.display = 'none';
   sliderGroup[0].style.display = 'none';
@@ -97,6 +97,24 @@ groupClick.onclick = function (event) {
   sliderIndividual[0].style.display = 'none';
   sliderGroup[0].style.display = 'flex';
 }
+  
+}
+
+//allClick.onclick = function (event) {
+//  sliderFor[0].style.display = 'flex';
+//  sliderIndividual[0].style.display = 'none';
+//  sliderGroup[0].style.display = 'none';
+//}
+//individClick.onclick = function (event) {
+//  sliderFor[0].style.display = 'none';
+//  sliderIndividual[0].style.display = 'flex';
+//  sliderGroup[0].style.display = 'none';
+//}
+//groupClick.onclick = function (event) {
+//  sliderFor[0].style.display = 'none';
+//  sliderIndividual[0].style.display = 'none';
+//  sliderGroup[0].style.display = 'flex';
+//}
 
 
 

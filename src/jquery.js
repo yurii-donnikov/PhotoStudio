@@ -27,23 +27,23 @@ import '../node_modules/slick-carousel/slick/slick';
 
 
 // - слик слайдер
-$('.slider-for').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-});
-
-$('.sliderIndividual').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-});
-
-$('.sliderGroup').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-});
+//$('.slider-for').slick({
+//  infinite: true,
+//  slidesToShow: 3,
+//  slidesToScroll: 3
+//});
+//
+//$('.sliderIndividual').slick({
+//  infinite: true,
+//  slidesToShow: 3,
+//  slidesToScroll: 3
+//});
+//
+//$('.sliderGroup').slick({
+//  infinite: true,
+//  slidesToShow: 3,
+//  slidesToScroll: 3
+//});
 
 
 //- найстройка кнопки меню
@@ -221,3 +221,22 @@ $('.Blog').click(function () {
   });
   $('.centerBut').css('display', 'block');
 });
+
+
+//------
+//$('window').load(function () {
+//  $('.sliderIndividual').style('display', 'none');
+//  $('sliderGroup').style('display', 'none');
+//})
+//
+//
+
+
+
+
+
+
+
+
+
+
