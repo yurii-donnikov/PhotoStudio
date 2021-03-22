@@ -7,7 +7,7 @@ footer {
 
   @media (max-width: 414px) {
     font-size: 12px;
-      padding: 10px 0;
+    padding: 10px 0;
   }
 
   div {
@@ -15,8 +15,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
 
     img {
       width: 100px;
@@ -57,7 +55,7 @@ footer {
 
         @media (max-width: 414px) {
           font-size: 9px;
-    line-height: 16px;
+          line-height: 16px;
         }
       }
     }

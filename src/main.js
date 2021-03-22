@@ -1,12 +1,3 @@
-//document.body.querySelectorAll('.slick-arrow')[0].innerText = ''
-//document.body.querySelectorAll('.slick-arrow')[1].innerText = ''
-//
-//document.body.querySelectorAll('.slick-arrow')[2].innerText = ''
-//document.body.querySelectorAll('.slick-arrow')[3].innerText = ''
-//document.body.querySelectorAll('.slick-arrow')[4].innerText = ''
-//document.body.querySelectorAll('.slick-arrow')[5].innerText = ''
-
-
 //- модальное окно под форму регистрации
 const registrationIndivid = document.querySelector('.registrationIndivid')
 const registrationComp = document.querySelector('.registrationComp')
@@ -41,6 +32,7 @@ window.onclick = function (event) {
 }
 
 
+
 //- отправда данных пользователя на сервер 
 const [button, myTell, myName, txtAfterInp] = ['button', 'myTell', 'myName', 'txtAfterInp']
 .map((classNames) => document.getElementsByClassName(classNames))
@@ -67,72 +59,4 @@ button[0].onclick = function (event) {
   } else {
     txtAfterInp[0].innerHTML = 'enter the correct number'
   }
-  console.log('dv')
 }
-
-
-//- переключатель слайдера
-const [allClick, individClick, groupClick] = ['allClick', 'individClick', 'groupClick']
-.map((id) => document.getElementById(id))
-
-const[sliderFor, sliderIndividual, sliderGroup] = ['slider-for', 'sliderIndividual', 'sliderGroup'].map((classNames) => document.getElementsByClassName(classNames))
-
-window.onload = function (event) {
-  sliderIndividual[0].style.display = 'none';
-  sliderGroup[0].style.display = 'none';
-  
-  //--------
-  allClick.onclick = function (event) {
-  sliderFor[0].style.display = 'flex';
-  sliderIndividual[0].style.display = 'none';
-  sliderGroup[0].style.display = 'none';
-}
-individClick.onclick = function (event) {
-  sliderFor[0].style.display = 'none';
-  sliderIndividual[0].style.display = 'flex';
-  sliderGroup[0].style.display = 'none';
-}
-groupClick.onclick = function (event) {
-  sliderFor[0].style.display = 'none';
-  sliderIndividual[0].style.display = 'none';
-  sliderGroup[0].style.display = 'flex';
-}
-  
-}
-
-//allClick.onclick = function (event) {
-//  sliderFor[0].style.display = 'flex';
-//  sliderIndividual[0].style.display = 'none';
-//  sliderGroup[0].style.display = 'none';
-//}
-//individClick.onclick = function (event) {
-//  sliderFor[0].style.display = 'none';
-//  sliderIndividual[0].style.display = 'flex';
-//  sliderGroup[0].style.display = 'none';
-//}
-//groupClick.onclick = function (event) {
-//  sliderFor[0].style.display = 'none';
-//  sliderIndividual[0].style.display = 'none';
-//  sliderGroup[0].style.display = 'flex';
-//}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

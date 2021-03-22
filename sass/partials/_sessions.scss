@@ -24,8 +24,6 @@
       min-height: 130px;
     }
 
-
-
     div {
       display: block;
       position: relative;
@@ -41,7 +39,6 @@
           width: 25px;
           height: 30px;
           padding: 10px 0 0 0;
-
         }
       }
 
@@ -54,8 +51,6 @@
           margin: 10px 0 10px 0;
           font-size: 18px;
         }
-
-
       }
 
       p {
@@ -73,7 +68,6 @@
           display: none;
         }
 
-
         &::after {
           content: "";
           position: absolute;
@@ -83,10 +77,6 @@
           height: 2px;
           background-color: #4e4e4e;
         }
-
-
-
-
       }
 
       .registrationIndivid {
@@ -112,20 +102,13 @@
             font-size: 13px;
           }
 
-
-
           &::after {
             display: none;
           }
         }
       }
-
     }
-
   }
-
-
-
 
   .companies {
     display: flex;
@@ -157,7 +140,6 @@
           width: 50px;
           height: 30px;
           padding: 10px 0 0 0;
-
         }
       }
 
@@ -197,7 +179,6 @@
         }
       }
 
-
       .registrationComp {
         @include styleButton;
         position: absolute;
@@ -221,14 +202,11 @@
             font-size: 13px;
           }
 
-
-
           &::after {
             display: none;
           }
         }
       }
-
     }
   }
 }

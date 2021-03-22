@@ -2,11 +2,6 @@ header {
   display: block;
   position: relative;
   overflow: hidden;
-  //  opacity: 0;
-  //  display: flex;
-  //  position: relative;
-
-  //  overflow: hidden;
   width: 100%;
   height: 80px;
   background-color: #fff;
@@ -15,11 +10,6 @@ header {
     height: 70px;
   }
 
-  //  transition: all 1.2s ease 0s;
-
-  //  align-items: center;
-  //  justify-content: space-between;
-  //  box-sizing: border-box;
   .header {
     display: flex;
     position: relative;
@@ -120,8 +110,6 @@ header {
           &:hover {
             background-image: url(/images/icon-facebookTwoColor.png);
           }
-
-
         }
 
         .icon-inst {
@@ -142,8 +130,6 @@ header {
           &:hover {
             background-image: url(/images/icon-instTwoColor.png);
           }
-
-
         }
 
         .icon-link {
@@ -164,8 +150,6 @@ header {
           &:hover {
             background-image: url(/images/icon-linkTwoColor.png);
           }
-
-
         }
 
         .icon-flover {
@@ -186,8 +170,6 @@ header {
           &:hover {
             background-image: url(/images/icon-floverTwoColor.png);
           }
-
-
         }
 
         .icon-google {
@@ -208,37 +190,8 @@ header {
           &:hover {
             background-image: url(/images/icon-googleTwoColor.png);
           }
-
-
         }
       }
-
-
-      //    :first-child {
-      //      a {
-      //        height: 16px;
-      //        width: 9px;
-      //
-      //        img {
-      //          height: 16px;
-      //          width: 9px;
-      //        }
-      //      }
-      //    }
-      //
-      //    li {
-      //      margin: 0 10px 0 10px;
-      //
-      //      a {
-      //        height: 16px;
-      //        width: 16px;
-      //
-      //        img {
-      //          height: 16px;
-      //          width: 16px;
-      //        }
-      //      }
-      //    }
     }
 
     .buttonMenu {
@@ -248,13 +201,11 @@ header {
       justify-content: space-around;
       width: 32px;
       height: 32px;
-      //      border: 1px solid #000;
       box-sizing: border-box;
 
       @media (max-width: 768px) {
         display: flex;
       }
-
 
       .topBut {
         display: block;
@@ -263,8 +214,6 @@ header {
         height: 3px;
         background-color: #000;
         transition: all 0.3s ease 0s;
-        //        transform: rotate(45deg);
-        //        top: 8px;
       }
 
       .centerBut {
@@ -282,9 +231,6 @@ header {
         height: 3px;
         background-color: #000;
         transition: all 0.3s ease 0s;
-
-        //        transform: rotate(-45deg);
-        //        bottom: 8px;
       }
     }
   }
@@ -323,7 +269,6 @@ header {
         margin: 70px 0 0 0;
       }
 
-
       .mobMenutxt {
         @include styleP;
         height: 70%;
@@ -350,14 +295,11 @@ header {
   opacity: 0;
 }
 
-
-
 .headFixed {
   position: fixed;
   z-index: 5;
   opacity: 1;
   transition: all 1s ease 0s;
-  //        transition: all 0.5s ease-in-out 0s;
   border-bottom: 2px solid #000;
 }
 

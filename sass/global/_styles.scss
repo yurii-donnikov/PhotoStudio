@@ -71,13 +71,11 @@
           @include styleButton;
           border: none;
         }
-        .txtAfterInp{
+
+        .txtAfterInp {
           @include styleP;
         }
-
       }
-
-
     }
 
     .close {
@@ -90,12 +88,6 @@
       z-index: 5;
       font-size: 30px;
       cursor: pointer;
-
-      //      @media (max-width: 575px) {
-      //        top: 2%;
-      //        right: 50%;
-      //        transform: translate(50%, 0)
-      //      }
     }
   }
 }
@@ -106,7 +98,6 @@
   max-width: 1040px;
   padding: 0 20px 0 20px;
   box-sizing: border-box;
-
 }
 
 #content {
@@ -120,7 +111,3 @@
 aside {
   position: relative;
 }
-
-//.active {
-//  display: block;
-//}
